@@ -1,9 +1,11 @@
 ---
+title: First post!
 layout: post
-title:  "First post!"
-date:   2021-07-10 18:31:34 -0500
-categories: jekyll update
+date: '2021-07-10 18:31:34 -0500'
+categories:
+- 1st-category
 ---
+
 ✌ Hi there! :v: It's my (@xepozz) first post :1st_place_medal:
 
 [The blog](https://xepozz.github.io/blogit) is started.

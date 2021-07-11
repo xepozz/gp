@@ -53,6 +53,8 @@ plugins:
   - minima
   - rouge
 
+include:
+  - _pages
 exclude:
   - Gemfile
   - Gemfile.lock
@@ -73,10 +75,10 @@ locale                   : "ru-RU"
 title_separator          : "-"
 subtitle                 : "Development Test Site"
 name                     : "Dmitry Derepko"
-repository               : xepozz/gp # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+repository               : xepozz/gp
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : "/assets/images/apple-touch-icon.png" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
-masthead_title           : "Custom Title" # overrides the website title displayed in the masthead, use " " for no title
+masthead_title           : "Demo site on Jekyll" # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
@@ -114,6 +116,9 @@ search_provider          : "lunr"
 #  index_name             : "dev_minimal-mistakes"
 #  search_only_api_key    : "9d5014e5bbc77372547bce778dfa5663"
 #  powered_by             : true
+breadcrumbs               : true  # disabled by default
+breadcrumb_home_label     : "Home"
+breadcrumb_separator      : "/"
 
 # SEO Related
 google_site_verification :
@@ -143,6 +148,8 @@ analytics:
   google:
     tracking_id          :
 
+categories:
+  - my-category
 
 # Site Author
 author:
@@ -215,6 +222,34 @@ paginate: 10 # amount of posts to show
 paginate_path: /page:num/
 timezone: Europe/Moscow
 
+
+# Archives
+#  Type
+#  - GitHub Pages compatible archive pages built with Liquid ~> type: liquid (default)
+#  - Jekyll Archives plugin archive pages ~> type: jekyll-archives
+#  Path (examples)
+#  - Archive page should exist at path when using Liquid method or you can
+#    expect broken links (especially with breadcrumbs enabled)
+#  - <base_path>/tags/my-awesome-tag/index.html ~> path: /tags/
+#  - <base_path>/categories/my-awesome-category/index.html ~> path: /categories/
+#  - <base_path>/my-awesome-category/index.html ~> path: /
+category_archive:
+  type: liquid
+  path: /categories/
+tag_archive:
+  type: liquid
+  path: /tags/
+# https://github.com/jekyll/jekyll-archives
+jekyll-archives:
+  enabled:
+    - categories
+    - tags
+  layouts:
+    category: archive-taxonomy
+    tag: archive-taxonomy
+  permalinks:
+    category: /categories/:name/
+    tag: /tags/:name/
 
 
 # Defaults

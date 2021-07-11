@@ -1,6 +1,6 @@
 FROM jekyll/jekyll:latest
 
-COPY Gemfile Gemfile.lock ./
+COPY Gemfile* ./
 RUN bundle instal
 
 EXPOSE 4000

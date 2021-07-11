@@ -1,9 +1,10 @@
 xepozz:
-  avatar: https://github.com/xepozz.png
-  name: Dmitry Derepko
-  github: xepozz
-  twitter: xepozz
-  telegram: xepozz
+  name             : "Dmitry Derepko"
+  avatar           : "https://github.com/xepozz.png"
+  bio              : "I am an **amazing** person."
+  location         : "Kazan"
+  github           : xepozz
+  twitter          : xepozz
 
 benbalter:
   avatar: https://github.com/benbalter.png

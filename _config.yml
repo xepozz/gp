@@ -152,25 +152,7 @@ categories:
   - my-category
 
 # Site Author
-author:
-  name             : "Dmitry Derepko"
-  avatar           : "https://github.com/xepozz.png"
-  bio              : "I am an **amazing** person."
-  location         : "Kazan"
-  links:
-    - label: "Your Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://your-site.com"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
-
+author: xepozz
 
 # Site Footer
 footer:

@@ -1,0 +1,8 @@
+main:
+  - title: "Categories"
+    url: /category-archive/
+  - title: "About"
+    url: /about/
+  - title: "Github"
+    url: https://github.com/xepozz/gp
+    target: _blank

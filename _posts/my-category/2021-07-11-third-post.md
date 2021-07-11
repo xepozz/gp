@@ -1,7 +1,5 @@
 ---
-title: First post!
 layout: single
-date: '2021-07-10 18:31:34 -0500'
 categories:
 - 1st-category
 ---

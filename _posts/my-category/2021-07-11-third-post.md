@@ -2,6 +2,9 @@
 layout: single
 categories:
 - 1st-category
+excerpt: "This post should display a **header with a solid background color**, if the theme supports it."
+header:
+  overlay_color: "#333"
 ---
 
 ✌ Hi there! :v: It's my (@xepozz) first post :1st_place_medal:

@@ -1,8 +1,8 @@
 FROM jekyll/jekyll:latest
 
 COPY Gemfile* ./
-RUN bundle instal
+RUN bundle install
 
 EXPOSE 4000
-ENTRYPOINT jekyll serve --livereload
+ENTRYPOINT bundle exec jekyll serve --livereload --host 0.0.0.0
 

@@ -10,6 +10,10 @@ twitter_username: xepozz
 github_username: xepozz
 rss: RSS
 
+safe: true
+gist:
+  noscript: false
+
 # Build settings
 #markdown: kramdown
 #theme: minima
@@ -100,7 +104,8 @@ comments:
     branch               : # "master"
     endpoint             : # "https://{your Staticman v3 API}/v3/entry/github/"
 atom_feed:
-  path                   : # blank (default) uses feed.xml
+  name                   : RSS
+  path                   : rss.xml # blank (default) uses feed.xml
 search                   : true # true, false (default)
 search_full_content      : true # true, false (default)
 search_provider          : "lunr"
@@ -190,6 +195,8 @@ kramdown:
   hard_wrap: false
   auto_ids: true
   footnote_nr: 1
+  math_engine: mathjax
+  syntax_highlighter: rouge
   entity_output: as_char
   toc_levels: 1..6
   smart_quotes: lsquo,rsquo,ldquo,rdquo

@@ -28,6 +28,7 @@ plugins:
   - jekyll-feed
   - jekyll-gist
   - jekyll-github-metadata
+  - jekyll-include-cache
   - jekyll-mentions
   - jekyll-optional-front-matter
   - jekyll-paginate

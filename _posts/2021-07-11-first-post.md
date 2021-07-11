@@ -8,7 +8,12 @@ categories: jekyll update
 
 [The blog](https://xepozz.github.io/blogit) is started.
 
+<!--cut-->
+
 At now posts may interpreter any _markdown_ entities. We can see these in the next posts.
+
+Gist:
+{% gist 6951d2fe8203629308b4fe373329faf7 .htaccess %}
 
 There is some highlighted snippets:
 ```php
